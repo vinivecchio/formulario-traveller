@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Open+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.form_traveller {
+    margin: 10px auto;
+    width: 700px;
+    height: 700px;
+}
+#titulo {
+    font-family:'Josefin Sans', sans-serif;
+    color:#FFF8D3 ;
+    text-align: center;
+}
+#subtitulo {
+    font-family:'Josefin Sans', sans-serif;
+    color: #FFF8D3;
+    text-align: center;
+}
+.titulo_campo {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #FFF8D3;
+}
+.componentes {
+    height: 30px;
+    padding: 10px;
+    background-color:#7AAED3 ;
+}
+.campos {
+    margin: 10px auto;
+    padding: 15px;
+}
+body {
+    margin: 10px auto;
+    font-size: large;
+    font-family:'Open Sans', sans-serif;
+    color: #CED0C3;
+     background-color:#1A2737 ;
+ }
+ label {
+     font-size: large;
+     font-weight: 700;
+ }
+textarea {
+    width: 400px;
+    height: 200px;
+    resize: none;
+    margin: 10px auto;
+    background-color: #7AAED3;
+}
+
+button {
+     font-size: large;
+     padding: 15px;
+     background-color: #7AAED3 ;
+     color: #CED0C3;
+     text-transform: capitalize;
+     justify-content: center;
+ }
+ .botao {
+     margin: 10px 10px;
+     text-align: center;
+ }
+
+ button:hover {
+     background-color: #CED0C3;
+     color: #7AAED3 ;
+     cursor: pointer;
+ }
+
+          

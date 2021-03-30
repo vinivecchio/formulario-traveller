@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Projeto Traveller</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="" method="post" class="form_traveller">
+        <div>
+            <h1 id="titulo">Gulliver Traveller</h1>
+            <h2 id="subtitulo">Cadastre aqui um novo ponto turístico:</h2>
+        </div>
+        <div class="campos">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required placeholder="ex: Parque do Ibirapuera" class="componentes">
+            <label for="localizacao">Localização:</label>
+            <input type="text" name="localizacao" id="localizacao" required placeholder="Av. Sumaré, 1900" class="componentes">
+        </div>
+        
+        <div class="campos">
+                <label for="valor_ingresso">Valor de Ingresso em R$:</label>
+                <input type="number" name="valor_ingresso" id="valor_ingresso" placeholder="ex: 100.00" class="componentes">
+                <p>ou</p>
+                <label for="valor_ingresso_gratuito">Gratuito:</label>
+                <input type="radio" name="valor_ingresso_gratuito" id="valor_ingresso_gratuito">
+        </div>
+                <div class="campos">
+                     <h4 class="titulo_campo">Melhor jeito de chegar:</h4>
+                <input type="radio" name="transporte" id="onibus">
+                <label for="onibus">Ônibus</label>
+                <input type="radio" name="transporte" id="metro">
+                <label for="metro">Metrô</label>
+                <input type="radio" name="transporte" id="carro_por_aplicativo">
+                <label for="carro_por_aplicativo">Táxi / Motorista de aplicativo</label>
+                </div>
+                <div class="campos">
+                    <h4 class="titulo_campo">Melhor estação para visitar:</h4>
+                    <input type="radio" name="estacao" id="verao">
+                    <label for="verao">Verão</label>
+                    <input type="radio" name="estacao" id="outono">
+                    <label for="outono">Outono</label>
+                    <input type="radio" name="estacao" id="inverno">
+                    <label for="inverno">Inverno</label>
+                    <input type="radio" name="estacao" id="primavera">
+                    <label for="primavera">Primavera</label>
+                </div>
+                <div class="campos">
+                        <h4 class="titulo_campo">Curiosidades históricas:</h4>
+                        <textarea id="curiosidades"></textarea>
+                        <div class="campos">
+                        <label for="site">Site do local:</label>
+                        <input type="url" name="site" id="site" placeholder="www.parquedoibira.com.br" class="componentes">
+                        </div>
+                        <div class="campos">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone"  placeholder="11 9999-9999" class="componentes">
+                </div>
+                
+                <div class="botao">
+                    <button type="submit">Enviar</button>
+                </div>
+        </div>
+    </form>
+</body>
+</html>
